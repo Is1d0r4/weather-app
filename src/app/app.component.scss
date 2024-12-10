@@ -1,0 +1,26 @@
+.container {
+    max-width: 250px;
+    margin: 0 auto;
+
+    .content {
+        padding: 16px;
+
+        .city-select {
+            width: 100%;
+            padding: 10px 5px;
+            border: none;
+            border-bottom: 1px solid;
+
+            &:focus-visible {
+                outline: none;
+            }
+        }
+    }
+
+    .toolbar {
+        justify-content: center;
+        background-color: #3E51B5;
+        color: white;
+        padding: 10px;
+    }
+}
